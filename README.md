@@ -1,5 +1,7 @@
 # proxy-client-vue-demo
 
+Demo for [proxy-client-vue](https://github.com/nunogois/proxy-client-vue).
+
 Currently hosted on Vercel: https://proxy-client-vue-demo.vercel.app/
 
 # Vue 3 + TypeScript + Vite
