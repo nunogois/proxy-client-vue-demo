@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@nunogois/proxy-client-vue": "^0.0.15",
+    "@nunogois/proxy-client-vue": "latest",
     "vue": "^3.2.25"
   },
   "devDependencies": {
