@@ -39,10 +39,10 @@
   resolved "https://registry.yarnpkg.com/@emmetio/scanner/-/scanner-1.0.0.tgz#065b2af6233fe7474d44823e3deb89724af42b5f"
   integrity sha512-8HqW8EVqjnCmWXVpqAOZf+EGESdkR27odcMMMGefgKXtar00SoYNSryGv//TELI4T3QFsECo78p+0lmalk/CFA==
 
-"@nunogois/proxy-client-vue@^0.0.20":
-  version "0.0.20"
-  resolved "https://registry.yarnpkg.com/@nunogois/proxy-client-vue/-/proxy-client-vue-0.0.20.tgz#45e0fa4cc1b28a07f76e7504c1f56fc89517a05a"
-  integrity sha512-wuq3wSZMiGiurbNFEmWG8qZ/fGaAimPGYM5pRBUkNX0zXqYcrifogYGkYxRNuoEoPOaV5e2AtiQC7SJ9VQrsuQ==
+"@nunogois/proxy-client-vue@^0.0.22":
+  version "0.0.22"
+  resolved "https://registry.yarnpkg.com/@nunogois/proxy-client-vue/-/proxy-client-vue-0.0.22.tgz#2a42039c8c0dbdfc5045081c5c2c4455e62cd96f"
+  integrity sha512-52KBbSJuqtRnGzXzrKn3IzR5eGOArQv4bFteVy+2aKJ6i8EXW95Cs2e2c2eAl2mdPvOjKlV1gwEz45PHoG1daQ==
   dependencies:
     vue "^3.2.25"
 
