@@ -39,11 +39,12 @@
   resolved "https://registry.yarnpkg.com/@emmetio/scanner/-/scanner-1.0.0.tgz#065b2af6233fe7474d44823e3deb89724af42b5f"
   integrity sha512-8HqW8EVqjnCmWXVpqAOZf+EGESdkR27odcMMMGefgKXtar00SoYNSryGv//TELI4T3QFsECo78p+0lmalk/CFA==
 
-"@nunogois/proxy-client-vue@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@nunogois/proxy-client-vue/-/proxy-client-vue-0.1.0.tgz#2c818239827fb9c756cf95ff41d1e5127c2beb25"
-  integrity sha512-jVX7pkxTkE0nPkB+WkfwHHWGp5vWxGazeIjfnxpHubYNPZl4UNtNXg71MnElJQGeICLeB3mX1TpT4gyhGuJodw==
+"@nunogois/proxy-client-vue@^0.1.11":
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/@nunogois/proxy-client-vue/-/proxy-client-vue-0.1.11.tgz#973e6782f14736078d4fdd5251bda7bedda67aa3"
+  integrity sha512-gP0XSOO6cQG8WizKzxZQxdwYAtwRGIhfLA8mDaPgE7oaQ+efyQCjWR4+gVHrwyQvfzgpotLk2AeOAyf83UCEKQ==
   dependencies:
+    unleash-proxy-client v2.0.0-beta.0
     vue "^3.2.25"
 
 "@vitejs/plugin-vue@^2.3.1":
@@ -556,9 +557,9 @@ magic-string@^0.25.7:
     sourcemap-codec "^1.4.8"
 
 nanoid@^3.3.1:
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.2.tgz#c89622fafb4381cd221421c69ec58547a1eec557"
-  integrity sha512-CuHBogktKwpm5g2sRgv83jEy2ijFzBwMoYA60orPDR7ynsLijJDqgsi4RDGj3OJpy3Ieb+LYwiRmIOGyytgITA==
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.3.tgz#fd8e8b7aa761fe807dba2d1b98fb7241bb724a25"
+  integrity sha512-p1sjXuopFs0xg+fPASzQ28agW1oHD7xDsd9Xkf3T15H3c/cifrFHVwrh74PdoklAPi+i7MdRsE47vm2r6JoB+w==
 
 object-assign@^4.1.1:
   version "4.1.1"
@@ -742,6 +743,11 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
+tiny-emitter@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-2.1.0.tgz#1d1a56edfc51c43e863cbb5382a72330e3555423"
+  integrity sha512-NB6Dk1A9xgQPMoGqC5CVXn123gWyte215ONT5Pp5a0yt4nlEoO1ZWeCwpncaekPHXO60i47ihFnZPiRPjRMq4Q==
+
 to-fast-properties@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/to-fast-properties/-/to-fast-properties-2.0.0.tgz#dc5e698cbd079265bc73e0377681a4e4e83f616e"
@@ -757,10 +763,23 @@ typescript@^4.5.4:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.6.3.tgz#eefeafa6afdd31d725584c67a0eaba80f6fc6c6c"
   integrity sha512-yNIatDa5iaofVozS/uQJEl3JRWLKKGJKh6Yaiv0GLGSuhpFJe7P3SbHZ8/yjAHRQwKRoA6YZqlfjXWmVzoVSMw==
 
+unleash-proxy-client@v2.0.0-beta.0:
+  version "2.0.0-beta.0"
+  resolved "https://registry.yarnpkg.com/unleash-proxy-client/-/unleash-proxy-client-2.0.0-beta.0.tgz#a3941b19e2078f9400401e1ea618f4b8f4d99bb7"
+  integrity sha512-2ofJlMEFxFyYaLS6qsMU5oxtX3nl/3pgRvguH98NP7PUnfb+eXhK9Dsr6ziRVkwBk/IFc+znUe+QjDRyMqMcHg==
+  dependencies:
+    tiny-emitter "^2.1.0"
+    uuid "^8.3.2"
+
 upath@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/upath/-/upath-2.0.1.tgz#50c73dea68d6f6b990f51d279ce6081665d61a8b"
   integrity sha512-1uEe95xksV1O0CYKXo8vQvN1JEbtJp7lb7C5U9HMsIp6IVwntkH/oNUzyVNQSd4S1sYk2FpSSW44FqMc8qee5w==
+
+uuid@^8.3.2:
+  version "8.3.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
+  integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
 
 vite@^2.9.2:
   version "2.9.5"
