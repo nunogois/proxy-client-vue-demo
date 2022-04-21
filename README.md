@@ -1,6 +1,6 @@
 # proxy-client-vue-demo
 
-Demo for [proxy-client-vue](https://github.com/nunogois/proxy-client-vue).
+Demo for [proxy-client-vue](https://github.com/unleash/proxy-client-vue).
 
 Currently hosted on Vercel: https://proxy-client-vue-demo.vercel.app/
 

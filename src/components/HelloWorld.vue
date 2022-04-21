@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useFlag, useFlagsStatus, useVariant } from '@nunogois/proxy-client-vue'
+import { useFlag, useFlagsStatus, useVariant } from '@unleash/proxy-client-vue'
 
 const enabled = useFlag('test-feature')
 const variant = useVariant('test-feature')
