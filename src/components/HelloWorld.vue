@@ -12,7 +12,7 @@ const { flagsReady } = useFlagsStatus()
   <div v-if="!flagsReady">Loading...</div>
   <div v-else :style="`font-size:24px; color: ${enabled ? 'green' : 'red'}`">
     {{ enabled ? 'Feature is enabled!' : 'Feature is disabled!' }}
-    <div v-if="variant.enabled">
+    <div v-if="variant?.enabled">
       {{ variant.name }}
     </div>
   </div>
